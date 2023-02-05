@@ -1,0 +1,52 @@
+#main {
+	margin: auto;
+	width: 60%;
+	margin-top: 50px;
+	display: flex;
+}
+
+#left {
+	margin: auto;
+	width: 50%;
+	margin-top: 50px;
+}
+
+#right {
+	margin: auto;
+	width: 30%;
+	margin-top: 50px;
+}
+
+form > * {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#timereports {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#timereports td,
+#timereports th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#timereports tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#timereports tr:hover {
+	background-color: #ddd;
+}
+
+#timereports th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
